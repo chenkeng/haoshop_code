@@ -1,0 +1,3 @@
+[2017-08-10 11:03:50] http://9daoyou.com/shop/?act=store_list&keyword=%E8%BE%89%E7%85%8C ( act=store_list&op=index ) 
+ERR: Db Error: Table '9daoyou.33hao_order' doesn't exist
+SELECT store_id,count(*) as order_count FROM `33hao_order` WHERE ( store_id IN ('2') ) AND ( add_time > '1494558230' ) GROUP BY store_id LIMIT 1000  
